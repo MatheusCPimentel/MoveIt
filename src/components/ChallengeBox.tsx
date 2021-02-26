@@ -33,14 +33,14 @@ export function ChallengeBox() {
               <button 
                 type="button"
                 className={styles.challengeFailedButton}
-                onClick={handleChallengeSucceeded}
+                onClick={handleChallengeFailed}
               >
                 Falhei
               </button>
               <button 
                 type="button"
                 className={styles.challengeSucceededButton}
-                onClick={handleChallengeFailed}
+                onClick={handleChallengeSucceeded}
               >
                 Completei
               </button>
